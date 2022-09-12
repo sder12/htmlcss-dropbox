@@ -6,6 +6,20 @@
   max-width: 1200px;
 }
 
+/* CONTAINER */
+
+.container-header{
+
+}
+
+.container-banner-footer{
+
+}
+
+.container-main{
+
+}
+
 /* COMMON */
 html {
   font-size: 62,5%;
@@ -25,3 +39,10 @@ img{
 /* FOOTER */
 
 /* DEBUG */
+
+.border{
+  border: 1px solid black;
+}
+.wborder{
+  border: 1px solid white
+}
