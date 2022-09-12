@@ -185,10 +185,9 @@ main {
 /* 5. Members */
 
 .members-card {
-  width: calc(100% - (500px * 2));
+  width: calc(100% - (var(--members-card) * 2));
+  height: var(--members-card);
   background-color: rgba(245, 245, 245, 1);
-  /* DEBUG */
-  height: 500px;
 }
 
 .members-card-cross {
@@ -257,7 +256,7 @@ main {
 
 /* FOOTER ---------------*/
 .footer-card, .footer-bottom-it{
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .footer-top {

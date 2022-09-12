@@ -1,0 +1,41 @@
+h1 {
+  font-size: 3.5rem;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+.trial-left h2 {
+  color: rgba(97, 8, 43, 1);
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+/* PARAGRAPH */
+p {
+  font-size: 1rem;
+}
+
+/* ANCOR TAG */
+.ahref-white a {
+  text-decoration: none;
+  color: black;
+}
+.ahref-blue a {
+  color: blue;
+}
+
+
+/* FOOTER */
+.footer-card,
+.footer-bottom-it {
+  color: white;
+}
