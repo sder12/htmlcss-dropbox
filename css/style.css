@@ -44,14 +44,25 @@ img{
   height: 700px;
 }
 
+/* BG-COLOR banenr footer */
+
+.banner-bgcolor{
+  /* DEBUG */
+  background-color: lightgreen;
+}
+
+.footer-bgcolor{
+  /* DEBUG */
+  background-color: lightslategray;
+}
 
 /* HEADER */
 
 
 /* BANNER */
-.banner-bgcolor{
-  /* DEBUG */
-  background-color: lightgreen;
+
+.banner{
+  margin-top: 80px;
 }
 
 /* MAIN */
@@ -60,10 +71,6 @@ img{
 
 
 /* FOOTER */
-.footer-bgcolor{
-  /* DEBUG */
-  background-color: lightslategray;
-}
 
 
 /* DEBUG */
