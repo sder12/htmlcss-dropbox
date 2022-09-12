@@ -15,6 +15,13 @@ img{
   max-width: 100%;
 }
 
+/* FLEX */
+.flex{
+  display: flex;
+  justify-content: space-between;
+}
+
+
 /* CONTAINER */
 
 .container-header{
@@ -57,11 +64,6 @@ img{
 
 /* HEADER */
 
-header{
-  display: flex;
-  justify-content: space-between;
-}
-
 .header-left, .header-right{
   /* DEBUG */
   height: 80px;
@@ -83,14 +85,8 @@ header{
   background-color: blueviolet;
 }
 
-.banner-two-col{
-  display: flex;
-  justify-content: center;
-  gap: 1em;
-}
-
 .banner-left, .banner-right{
-  width: 50%;
+  width: 48%;
   /* DEBUG */
   background-color: cyan;
   height: 300px;
@@ -102,8 +98,29 @@ header{
 .subscrition{
    /* DEBUG */
   height: 900px;
-  background-color: rgb(61, 95, 230);
+  background-color: orange;
 }
+
+.subscrition-title{
+  /* DEBUG */
+  height: 100px;
+  background-color: red;
+}
+.sub-card{
+    margin: 1em 0 1em;
+
+    /* DEBUG */
+    height: 600px;
+    background-color: rgb(255, 77, 0);
+    width: 30%;
+}
+
+.sub-one-row{
+    /* DEBUG */
+    height: 200px;
+    background-color: red;
+}
+
 
 /* 2. Find Partner */
 .find-partner{
