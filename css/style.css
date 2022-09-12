@@ -60,6 +60,13 @@ img {
   background-color: lightslategray;
 }
 
+.section-trial{
+  background-color: #b4d0e7;
+}
+
+.section-faq{
+  background-color: #0061ff;
+}
 /* HEADER */
 
 .header-left,
@@ -169,8 +176,16 @@ img {
 /* 5. Members */
 .members {
   /* DEBUG */
-  height: 200px;
+  height: 600px;
   background-color: rgb(179, 255, 0);
+}
+
+.members-card{
+  /* DEBUG */
+  height: 600px;
+  width: 600px;
+  background-color: rgb(23, 105, 178);
+  border: 1px solid black;
 }
 
 /* 6. Trial */
