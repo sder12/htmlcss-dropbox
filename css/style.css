@@ -36,6 +36,11 @@ img {
   flex-wrap: wrap;
 }
 
+.flex-right{
+  display: flex;
+  justify-content: flex-end;
+}
+
 /* CONTAINER */
 
 .container-header {
@@ -84,9 +89,31 @@ img {
 .header-left,
 .header-right {
   height: 80px;
-  width: 30%;
-  /* DEBUG */
-  border: 1px solid black;
+  line-height: 80px;
+  margin: 0 .4em;
+}
+
+.header-left ul li img{
+  width: 7em;
+  vertical-align: middle;  
+}
+
+.header-left ul li a, 
+.header-right ul li a {
+  color: black; 
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+.header-left ul li, 
+.header-right ul li {
+  list-style-type: none;  
+  display: inline-block;
+  padding: 0 .5em;
+}
+
+.header-right ul li .blue-button{
+  color: white;
 }
 
 /* BANNER -----------------*/

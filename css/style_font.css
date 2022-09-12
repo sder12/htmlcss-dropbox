@@ -24,6 +24,12 @@ p {
   font-size: 1rem;
 }
 
+/* FOOTER */
+.footer-card,
+.footer-bottom-it {
+  color: white;
+}
+
 /* ANCOR TAG */
 .ahref-white a {
   text-decoration: none;
@@ -34,8 +40,12 @@ p {
 }
 
 
-/* FOOTER */
-.footer-card,
-.footer-bottom-it {
+/* BUTTONS */
+
+.blue-button{ 
   color: white;
+  background-color: rgba(0, 97, 255, 1);
+  text-decoration: none;
+  padding: .3em 1em;  
 }
+
