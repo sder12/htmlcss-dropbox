@@ -7,35 +7,33 @@
 
 /* COMMON */
 html {
-  font-size: 62,5%;
-  font-family: 'Open Sans', sans-serif;
+  font-size: 62, 5%;
+  font-family: "Open Sans", sans-serif;
 }
 
-img{
+img {
   max-width: 100%;
 }
 
 /* FLEX */
-.flex{
+.flex {
   display: flex;
   justify-content: space-between;
 }
 
-
 /* CONTAINER */
 
-.container-header{
+.container-header {
   background-color: rgb(255, 255, 255);
-  width: 100%;  
-  height: 80px;  
+  width: 100%;
+  height: 80px;
   position: fixed;
   z-index: 999;
   top: 0;
-  left: 0; 
-  
+  left: 0;
 }
 
-.container-banner-footer{
+.container-banner-footer {
   margin: 0 auto;
   width: 70%;
   /* DEBUG */
@@ -43,49 +41,50 @@ img{
   background-color: lightpink;
 }
 
-.container-main{
+.container-main {
   margin: 0 auto;
   width: 60%;
   /* DEBUG */
-  background-color: blueviolet;
+  background-color: lightgray;
 }
 
 /* BG-COLOR banenr footer */
 
-.banner-bgcolor{
+.banner-bgcolor {
   /* DEBUG */
   background-color: #b4d0e7;
 }
 
-.footer-bgcolor{
+.footer-bgcolor {
   /* DEBUG */
   background-color: lightslategray;
 }
 
 /* HEADER */
 
-.header-left, .header-right{
+.header-left,
+.header-right {
   /* DEBUG */
   height: 80px;
   width: 30%;
   background-color: #0061ff;
 }
 
-
 /* BANNER */
 
-.banner{
-  margin-top: 80px;  
+.banner {
+  margin-top: 80px;
 }
 
-.banner-title{
+.banner-title {
   text-align: center;
   margin: 1em;
   /* DEBUG */
   background-color: blueviolet;
 }
 
-.banner-left, .banner-right{
+.banner-left,
+.banner-right {
   width: 48%;
   /* DEBUG */
   background-color: cyan;
@@ -95,40 +94,38 @@ img{
 /* MAIN */
 
 /* 1. Subscrition */
-.subscrition{
-   /* DEBUG */
+.subscrition {
+  /* DEBUG */
   height: 900px;
   background-color: orange;
 }
 
-.subscrition-title{
+.subscrition-title {
   /* DEBUG */
   height: 100px;
   background-color: red;
 }
-.sub-card{
-    margin: 1em 0 1em;
-
-    /* DEBUG */
-    height: 600px;
-    background-color: rgb(255, 77, 0);
-    width: 30%;
+.sub-card {
+  margin: 1em 0 1em;
+  /* DEBUG */
+  height: 600px;
+  background-color: rgb(255, 77, 0);
+  width: 30%;
 }
 
-.sub-one-row{
-    /* DEBUG */
-    height: 200px;
-    background-color: red;
+.sub-one-row {
+  /* DEBUG */
+  height: 200px;
+  background-color: red;
 }
-
 
 /* 2. Find Partner */
-.find-partner{
-   /* DEBUG */
-  background-color:rgb(100, 202, 168);
+.find-partner {
+  /* DEBUG */
+  background-color: rgb(100, 202, 168);
 }
 
-.find-card{
+.find-card {
   width: 48%;
   /* DEBUG */
   height: 300px;
@@ -137,49 +134,67 @@ img{
 }
 
 /* 3. Dropbox business */
-.dropbox-business{
+.dropbox-business {
   /* DEBUG */
-  height: 200px;
-  background-color: rgb(203, 224, 47);
+  background-color: lightcoral;
+}
+
+.dropbox-business-title {
+  /* DEBUG */
+  padding-top: 1em;
+  height: 100px;
+  background-color: lightpink;
+}
+
+.drop-business-col {
+  flex-wrap: wrap;
+}
+
+.drop-business-card {
+  margin: 1em 0 1em;
+  /* DEBUG */
+  height: 300px;
+  width: 30%;
+  border: 1px solid black;
+  background-color: fuchsia;
 }
 
 /* 4. More Than */
-.more-than{
+.more-than {
+  padding: 5em 0 5em;
   /* DEBUG */
-  height: 200px;
   background-color: rgb(7, 134, 134);
 }
 
 /* 5. Members */
-.members{
+.members {
+  
   /* DEBUG */
   height: 200px;
   background-color: rgb(179, 255, 0);
 }
 
 /* 6. Trial */
-.trial{
+.trial {
   /* DEBUG */
   height: 200px;
   background-color: rgb(227, 122, 46);
 }
 
 /* 7. Faq */
-.faq{
+.faq {
   /* DEBUG */
   height: 200px;
   background-color: rgb(212, 105, 255);
 }
 
-
 /* FOOTER */
-
 
 /* DEBUG */
 
-.border{
+.border {
   border: 1px solid black;
 }
-.wborder{
-  border: 1px solid white
+.wborder {
+  border: 1px solid white;
 }
