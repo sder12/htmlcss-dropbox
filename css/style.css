@@ -3,21 +3,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  max-width: 1200px;
-}
-
-/* CONTAINER */
-
-.container-header{
-
-}
-
-.container-banner-footer{
-
-}
-
-.container-main{
-
 }
 
 /* COMMON */
@@ -30,13 +15,56 @@ img{
   max-width: 100%;
 }
 
+/* CONTAINER */
+
+.container-header{
+  width: 100%;  
+  height: 80px;  
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0; 
+  /* DEBUG */
+  background-color: lightblue;
+}
+
+.container-banner-footer{
+  margin: 0 auto;
+  width: 70%;
+  /* DEBUG */
+  height: 400px;
+  background-color: lightpink;
+}
+
+.container-main{
+  margin: 0 auto;
+  width: 60%;
+  /* DEBUG */
+  background-color: blueviolet;
+  height: 700px;
+}
+
+
 /* HEADER */
 
+
 /* BANNER */
+.banner-bgcolor{
+  /* DEBUG */
+  background-color: lightgreen;
+}
 
 /* MAIN */
 
+
+
+
 /* FOOTER */
+.footer-bgcolor{
+  /* DEBUG */
+  background-color: lightslategray;
+}
+
 
 /* DEBUG */
 
