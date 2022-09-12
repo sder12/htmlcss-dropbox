@@ -41,7 +41,6 @@ img{
   width: 60%;
   /* DEBUG */
   background-color: blueviolet;
-  height: 700px;
 }
 
 /* BG-COLOR banenr footer */
@@ -67,7 +66,54 @@ img{
 
 /* MAIN */
 
+/* 1. Subscrition */
+.subscrition{
+   /* DEBUG */
+  height: 200px;
+  background-color: rgb(61, 95, 230);
+}
 
+/* 2. Find Partner */
+.find-partner{
+   /* DEBUG */
+  height: 200px;
+  background-color: rgb(7, 134, 134);
+}
+
+/* 3. Dropbox business */
+.dropbox-business{
+  /* DEBUG */
+  height: 200px;
+  background-color: rgb(203, 224, 47);
+}
+
+/* 4. More Than */
+.more-than{
+  /* DEBUG */
+  height: 200px;
+  background-color: rgb(7, 134, 134);
+}
+
+/* 5. Members */
+.members{
+  /* DEBUG */
+  height: 200px;
+  background-color: rgb(179, 255, 0);
+}
+
+/* 6. Trial */
+.trial{
+  /* DEBUG */
+  height: 200px;
+  background-color: rgb(227, 122, 46);
+}
+
+/* 7. Faq */
+.faq{
+  /* DEBUG */
+  height: 200px;
+  background-color: rgb(212, 105, 255);
+}
 
 
 /* FOOTER */
