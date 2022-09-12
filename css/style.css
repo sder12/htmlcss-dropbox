@@ -57,6 +57,24 @@ img{
 
 /* HEADER */
 
+header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-left{
+  /* DEBUG */
+  height: 80px;
+  width: 30%;
+  background-color: blue;
+}
+
+.header-right{
+  /* DEBUG */
+  height: 80px;
+  width: 30%;
+  background-color: red;
+}
 
 /* BANNER */
 
