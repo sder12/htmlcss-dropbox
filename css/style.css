@@ -181,6 +181,16 @@ img {
   background-color: rgb(227, 122, 46);
 }
 
+.trial-left, .trial-right{ 
+  height: 200px;
+  background-color: red;
+}
+.trial-left{
+  width: 60%;
+}
+.trial-right{
+  width:35%
+}
 /* 7. Faq */
 .faq {
   /* DEBUG */
