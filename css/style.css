@@ -15,6 +15,10 @@ img {
   max-width: 100%;
 }
 
+:root{
+  --members-card: 500px;
+}
+
 /* FLEX */
 .flex {
   display: flex;
@@ -25,6 +29,11 @@ img {
   display: flex;
   justify-content: center;
   gap: 1em;
+}
+
+.flex-wrap{
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /* CONTAINER */
@@ -183,11 +192,18 @@ main {
 }
 
 .members-card-cross {
+  height: var(--members-card);
+  width: var(--members-card);
   /* DEBUG */
-  height: 500px;
-  width: 500px;
   background-color: rgb(23, 105, 178);
-  border: 1px solid black;
+}
+
+.members-square{
+  width: calc(var(--members-card) / 2);
+  height: calc(var(--members-card) / 2);
+  /* DEBUG */
+  background-color: rgba(226, 43, 43, 0.521);
+  border: 1px solid white;
 }
 
 /* 6. Trial */
@@ -247,3 +263,5 @@ main {
 .wborder {
   border: 1px solid white;
 }
+
+
