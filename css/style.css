@@ -79,7 +79,25 @@ header{
 /* BANNER */
 
 .banner{
-  margin-top: 80px;
+  margin-top: 80px;  
+}
+
+.banner-title{
+  text-align: center;
+  /* DEBUG */
+  background-color: blueviolet;
+}
+
+.banner-two-col{
+  display: flex;
+  justify-content: center;
+}
+
+.banner-left, .banner-right{
+  /* DEBUG */
+  background-color: cyan;
+  width: 100px;
+  height: 100px;
 }
 
 /* MAIN */
