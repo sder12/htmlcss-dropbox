@@ -125,8 +125,15 @@ img{
 /* 2. Find Partner */
 .find-partner{
    /* DEBUG */
-  height: 200px;
-  background-color: rgb(7, 134, 134);
+  background-color:rgb(100, 202, 168);
+}
+
+.find-card{
+  width: 48%;
+  /* DEBUG */
+  height: 300px;
+  margin: 1em 0 1em;
+  background-color: aquamarine;
 }
 
 /* 3. Dropbox business */
