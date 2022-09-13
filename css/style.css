@@ -46,29 +46,17 @@ img {
 }
 
 /* CONTAINER */
-
-.container-header {
-  background-color: white;
-  width: 100%;
-  height: var(--header-height);
-  position: fixed;
-  z-index: 999;
-  top: 0;
-  left: 0;
-}
-
-.container-banner-footer {
-  margin: 0 auto;
-  width: 70%;
-}
-
 .container-main {
   margin: 0 auto;
   width: 60%;
 }
 
-/* BG-COLOR banner footer section*/
+.container-big {
+  margin: 0 auto;
+  width: 70%;
+}
 
+/* BG-COLOR for the container-big*/
 .banner-bgcolor,
 .section-trial {
   background-color: var(--color-bg-blue);
@@ -91,6 +79,16 @@ img {
 
 
 /* HEADER ----------------*/
+
+header {
+  background-color: white;
+  width: 100%;
+  height: var(--header-height);
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+}
 
 .header-left,
 .header-right {
@@ -124,7 +122,7 @@ img {
 
 /* BANNER -----------------*/
 .banner {
-  margin-top: var(--header-height);
+  padding-top: var(--header-height);
 }
 
 .banner-title {
@@ -139,16 +137,16 @@ img {
 
 .banner-right{
   width: 65%;
-  /* position: relative; */
+  position: relative;
 }
 
-/* IMMAGINE BANNER OUTSIDE
+/* IMMAGINE BANNER OUTSIDE*/
 .banner-right img{
   position: absolute;  
-  z-index: 2;
   top: 0;
   left: 0;
-}  */
+  z-index: 2;
+}  
 
 /* MAIN ---------------------*/
 
@@ -186,6 +184,14 @@ img {
   list-style-type: none;
 }
 
+
+.sub-radio-buttons label input,
+.sub-radio-buttons label span {
+  vertical-align: middle;
+}
+.sub-radio-buttons label span{
+  padding-right: 1em;
+}
 
 /* 2. Find Partner */
 .find-partner {
