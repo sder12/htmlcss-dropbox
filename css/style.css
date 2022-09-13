@@ -281,6 +281,15 @@ header {
   width: calc(100% - (var(--members-card) * 2));
   height: var(--members-card);
   background-color: rgba(245, 245, 245, 1);
+  padding: 3em;
+}
+.members-card img{
+  width: 40%;
+  padding-bottom: 2em;
+}
+
+.members-card p{
+  padding: 2em 0;
 }
 
 .members-card-cross {
@@ -291,6 +300,7 @@ header {
 .members-square {
   width: calc(var(--members-card) / 2);
   height: calc(var(--members-card) / 2);
+  position: relative;
 }
 
 /* background cross */
@@ -317,6 +327,19 @@ header {
 }
 .cross-right .members-square:nth-of-type(4) {
   background-color: rgba(255, 216, 48, 1);
+}
+
+/* img logo square */
+.members-square img{
+  width: 50%;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#fill{
+  fill: white;
 }
 
 /* 6. Trial */
