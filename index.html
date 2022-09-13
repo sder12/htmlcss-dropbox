@@ -19,35 +19,35 @@
 <body>
   <!-- ---------------------------------------------------------------------------------- -->
 
-  
+
   <!-- Header -->
   <header class="flex">
-    
-      <!-- Header Left -->
-      <div class="header-left">
-        <ul>
-          <li><img src="img/logo-small.png" alt=""></li>
-          <li> <a href="">Perchè Dropbox</a> </li>
-          <li><a href="">Funzioni</a></li>
-          <li><a href="">Piani e Prezzi</a></li>
-        </ul>
-      </div>
-      <!-- End Header Left -->
 
-      <!-- Header Right -->
-      <div class="header-right flex-right">
-        <ul>
-          <li> <a href="">Supporto</a> </li>
-          <li> <a href="">Contatta l'ufficio vendite </a> </li>
-          <li> <a href="">Accedi</a> </li>
-          <li> <a href="" class="blue-button">Inizia</a></li>
-        </ul>
-      </div>
-      <!-- End Header Right -->
-    
-    </header>
-<!-- End Header -->
-  
+    <!-- Header Left -->
+    <div class="header-left">
+      <ul>
+        <li><img src="img/logo-small.png" alt=""></li>
+        <li> <a href="">Perchè Dropbox</a> </li>
+        <li><a href="">Funzioni</a></li>
+        <li><a href="">Piani e Prezzi</a></li>
+      </ul>
+    </div>
+    <!-- End Header Left -->
+
+    <!-- Header Right -->
+    <div class="header-right flex-right">
+      <ul>
+        <li> <a href="">Supporto</a> </li>
+        <li> <a href="">Contatta l'ufficio vendite </a> </li>
+        <li> <a href="">Accedi</a> </li>
+        <li> <a href="" class="blue-button">Inizia</a></li>
+      </ul>
+    </div>
+    <!-- End Header Right -->
+
+  </header>
+  <!-- End Header -->
+
 
   <!-- ---------------------------------------------------------------------------------- -->
 
@@ -95,8 +95,8 @@
 
   <!-- Main -->
   <main>
-  <!-- Container-main -->
-  <div class="container-main">
+    <!-- Container-main -->
+    <div class="container-main">
 
       <!-- 1/7 Substriction  -->
       <section class="subscrition mt-3">
@@ -106,10 +106,12 @@
           <h2>Trova il piano business che fa per te</h2>
           <!-- Radio Buttons -->
           <div class="sub-radio-buttons">
-            <label for="">
-              <input type="radio">
+            <label class="label-radio">
+              <input type="radio" name="radio">
               <span> Fatturazione mensile</span>
-              <input type="radio">
+            </label>
+            <label class="label-radio">
+              <input type="radio" name="radio">
               <span>Fatturazione annuali</span>
             </label>
           </div>
@@ -120,10 +122,10 @@
         <!-- Sub Grid -->
         <div class="sub-container">
           <div class="sub-row">
-            <div class="sub-col flex-gap">
+            <div class="flex">
 
               <!-- Card 1 -->
-              <div class="sub-card border">
+              <div class="sub-card">
                 <!-- Card label -->
                 <div class="card-label">
                   <i class="fa-solid fa-user"></i>
@@ -137,18 +139,19 @@
                   <h3>Professional</h3>
                   <h4> € 12.00</h4>
                   <span class="mese"> /mese</span>
+                  
                   <ul class="check-list mt-2">
                     <li>
                       <i class="fa-solid fa-user"></i>
-                      1 utente
+                      <span> 1 utente </span>
                     </li>
                     <li>
                       <i class="fa-solid fa-folder"></i>
-                      5 TB di spazio di archiviazione sicuro
+                      <span>5 TB di spazio di archiviazione sicuro</span>
                     </li>
                     <li>
                       <i class="fa-solid fa-share-nodes"></i>
-                      Funzioni di produttività premium e condivisione file semplice e sicura
+                      <span> Funzioni di produttività premium e condivisione file semplice e sicura</span>
                     </li>
                   </ul>
                   <!-- Prova gratis -->
@@ -159,23 +162,25 @@
                   </div>
                   <!-- Oppure -->
                   <div class="mt-2">
-                    <span>
-                      oppure
-                    </span>
+                    <span> oppure </span>
                     <span class="ahref-blue">
                       <a href="">acquista ora</a>
                     </span>
                   </div>
+                  <!-- horizontal row -->
+                  <hr>
                   <!-- Part 2 -->
                   <div class="mt-2">
                     <h4> Punti salenti del piano</h4>
                     <ul>
                       <li>
                         <i class="fa-solid fa-check"></i>
-                        Invia file fino a 100 GB con Dropbox Transfert</li>
+                        <span>Invia file fino a 100 GB con Dropbox Transfert</span>
+                      </li>
                       <li>
                         <i class="fa-solid fa-check"></i>
-                        Cartelle offline su dispositivi mobili</li>
+                        <span> Cartelle offline su dispositivi mobili </span>
+                      </li>
                     </ul>
                   </div>
                 </div>
@@ -266,88 +271,90 @@
         </div>
       </section>
       <!-- 4/7 End More Than -->
-    
-  </div>
-  <!-- End container-main -->
 
-  <!-- 5/7 Square Members -->
-  <section class="members mt-3">
-    <div class="members-row flex">
-      <!-- Square Cross Left-->
-      <div class="members-card-cross cross-left flex-wrap">
-        <div class="members-square"></div>
-        <div class="members-square"></div>
-        <div class="members-square"></div>
-        <div class="members-square"></div>
-      </div>
-      <!-- Square Middle text -->
-      <div class="members-card">
-
-        <p>
-          "I membri del nostro teeam lavorano constantemente in Paesi, fusi orari e uffici diversi. Ora molte soluzioni
-          sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox e Dropbox Paper. Ora molte soluzioni
-          sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox Paper".
-        </p>
-        <span>Morten Thomsen, Global IT Leader</span>
-      </div>
-      <!-- Square Cross Right -->
-      <div class="members-card-cross cross-right flex-wrap">
-        <div class="members-square"></div>
-        <div class="members-square"></div>
-        <div class="members-square"></div>
-        <div class="members-square"></div>
-      </div>
     </div>
-  </section>
-  <!-- 5/7 End Square Members -->
+    <!-- End container-main -->
 
-
-  <!-- Section 1 -->
-  <section class="section-trial">
-    <div class="container-main">
-      <!-- 6/7 Free Trial -->
-      <div class="trial flex-gap">
-        <div class="trial-left">
-          <h2>Porta Dropbox Business nella tua azienda</h2>
+    <!-- 5/7 Square Members -->
+    <section class="members mt-3">
+      <div class="members-row flex">
+        <!-- Square Cross Left-->
+        <div class="members-card-cross cross-left flex-wrap">
+          <div class="members-square"></div>
+          <div class="members-square"></div>
+          <div class="members-square"></div>
+          <div class="members-square"></div>
         </div>
-        <div class="trial-right">
-          Inizia la prova gratuita
+        <!-- Square Middle text -->
+        <div class="members-card">
+
+          <p>
+            "I membri del nostro teeam lavorano constantemente in Paesi, fusi orari e uffici diversi. Ora molte
+            soluzioni
+            sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox e Dropbox Paper. Ora molte
+            soluzioni
+            sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox Paper".
+          </p>
+          <span>Morten Thomsen, Global IT Leader</span>
+        </div>
+        <!-- Square Cross Right -->
+        <div class="members-card-cross cross-right flex-wrap">
+          <div class="members-square"></div>
+          <div class="members-square"></div>
+          <div class="members-square"></div>
+          <div class="members-square"></div>
         </div>
       </div>
-      <!-- 6/7 End Free Trial -->
-    </div>
-  </section>
-  <!-- End Section 1 -->
+    </section>
+    <!-- 5/7 End Square Members -->
 
-  <!-- Section 2 -->
-  <section class="section-faq mt-3">
-    <div class="container-main">
-      <!-- 7/7 FAQ -->
-      <div class="faq">
-        <!-- Faq-Title -->
-        <div class="faq-title">
-          <h2> Domande frequenti</h2>
-        </div>
-        <!-- Faq Column -->
-        <div class="faq-column">
-          <div class="faq-item">
-            <h4>Qual è la differenza tra Dropbox Business Standard e Dropbox Busines Advanced?</h4>
+
+    <!-- Section 1 -->
+    <section class="section-trial">
+      <div class="container-main">
+        <!-- 6/7 Free Trial -->
+        <div class="trial flex-gap">
+          <div class="trial-left">
+            <h2>Porta Dropbox Business nella tua azienda</h2>
           </div>
-          <div class="faq-item">
-            <h4>Qual è la differenza tra Dropbox Business Standard e Dropbox Busines Advanced?</h4>
-          </div>
-          <div class="faq-item">
-            <h4>Qual è la differenza tra Dropbox Business Standard e Dropbox Busines Advanced?</h4>
+          <div class="trial-right">
+            Inizia la prova gratuita
           </div>
         </div>
+        <!-- 6/7 End Free Trial -->
       </div>
-      <!-- 7/8 End FAQ -->
-    </div>
-  </section>
-  <!-- End Section 2 -->
+    </section>
+    <!-- End Section 1 -->
 
-</main>
-<!-- End Main -->
+    <!-- Section 2 -->
+    <section class="section-faq mt-3">
+      <div class="container-main">
+        <!-- 7/7 FAQ -->
+        <div class="faq">
+          <!-- Faq-Title -->
+          <div class="faq-title">
+            <h2> Domande frequenti</h2>
+          </div>
+          <!-- Faq Column -->
+          <div class="faq-column">
+            <div class="faq-item">
+              <h4>Qual è la differenza tra Dropbox Business Standard e Dropbox Busines Advanced?</h4>
+            </div>
+            <div class="faq-item">
+              <h4>Qual è la differenza tra Dropbox Business Standard e Dropbox Busines Advanced?</h4>
+            </div>
+            <div class="faq-item">
+              <h4>Qual è la differenza tra Dropbox Business Standard e Dropbox Busines Advanced?</h4>
+            </div>
+          </div>
+        </div>
+        <!-- 7/8 End FAQ -->
+      </div>
+    </section>
+    <!-- End Section 2 -->
+
+  </main>
+  <!-- End Main -->
 
   <!-- ---------------------------------------------------------------------------------- -->
 
