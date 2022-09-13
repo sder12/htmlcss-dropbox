@@ -71,12 +71,24 @@ span {
 
 /* BUTTONS */
 
-.blue-button {
+.blue-button,
+.blue-button a{
   color: white;
   background-color: rgba(0, 97, 255, 1);
   text-decoration: none;
-  padding: 0.5em 1em;
 }
+
+.header-right ul li .blue-button,
+.sub-button .blue-button,
+.banner-left div .blue-button{
+  padding: .5em 1em;
+}
+
+.card-main-txt .blue-button{
+  padding: .6em;
+  text-align: center;
+}
+
 
 .white-button {
   color: black;
