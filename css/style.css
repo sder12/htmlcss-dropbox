@@ -258,15 +258,6 @@ header {
 }
 
 /* 3. Dropbox business */
-.dropbox-business {
-  /* DEBUG */
-  background-color: lightblue;
-}
-
-.dropbox-business-title {
-  /* DEBUG */
-  padding: 1em 0;
-}
 
 .drop-business-col {
   flex-wrap: wrap;
@@ -274,17 +265,18 @@ header {
 
 .drop-business-card {
   margin-top: 2em;
-  width: calc(100% / 3 - 1em);
-  /* DEBUG */
-  height: 300px;
-  border: 1px solid black;
+  width: calc(100% / 3 - 1em); 
 }
+
+.drop-business-card p{
+  padding-top: 2em;
+  padding-right: 1em;
+}
+
 
 /* 4. More Than */
 .more-than {
-  padding: 2em 0 5em;
-  /* DEBUG */
-  background-color: lightblue;
+  padding: 2em 0 5em; 
 }
 
 /* 5. Members */
