@@ -71,6 +71,9 @@ img {
 
 /* MARGIN */
 
+.mt-6 {
+  margin-top: 6em;
+}
 .mt-3 {
   margin-top: 3em;
 }
@@ -236,10 +239,6 @@ header {
 
 
 /* 2. Find Partner */
-.find-partner {
-  /* DEBUG */
-  background-color: lightblue;
-}
 
 .find-col > .find-card:nth-child(1) {
   width: 60%;
@@ -247,11 +246,15 @@ header {
 
 .find-col > .find-card:nth-child(2) {
   width: 40%;
+  margin: 4rem 3rem;
 }
 
-.find-card {
-  /* DEBUG */
-  height: 300px;
+.find-col h3{
+  padding-bottom: 1em;
+}
+
+.find-card div{
+  margin-top: 4em;
 }
 
 /* 3. Dropbox business */
