@@ -15,14 +15,13 @@ img {
   max-width: 100%;
 }
 
-:root{
+:root {
   --header-height: 80px;
   --members-card: 500px;
   --border-black: 1px solid black;
-  --padding-tb: .5em 0 .5em;
+  --padding-tb: 0.5em 0 0.5em;
   --color-bg-blue: #b4d0e7;
 }
-
 
 /* FLEX */
 .flex {
@@ -36,17 +35,17 @@ img {
   gap: 1em;
 }
 
-.flex-wrap{
+.flex-wrap {
   display: flex;
   flex-wrap: wrap;
 }
 
-.flex-right{
+.flex-right {
   display: flex;
   justify-content: flex-end;
 }
 /* POSITION */
-.p-relative{
+.p-relative {
   position: relative;
 }
 
@@ -78,14 +77,12 @@ img {
 .mt-3 {
   margin-top: 3em;
 }
-.mt-2{
+.mt-2 {
   margin-top: 2em;
 }
-.mb-2{
+.mb-2 {
   margin-bottom: 2em;
 }
-
-
 
 /* HEADER ----------------*/
 
@@ -103,29 +100,29 @@ header {
 .header-right {
   height: var(--header-height);
   line-height: var(--header-height);
-  margin: 0 .4em;
+  margin: 0 0.4em;
 }
 
-.header-left ul li img{
+.header-left ul li img {
   width: 7em;
-  vertical-align: middle;  
+  vertical-align: middle;
 }
 
-.header-left ul li a, 
+.header-left ul li a,
 .header-right ul li a {
-  color: black; 
+  color: black;
   text-decoration: none;
   vertical-align: middle;
 }
 
-.header-left ul li, 
+.header-left ul li,
 .header-right ul li {
-  list-style-type: none;  
+  list-style-type: none;
   display: inline-block;
-  padding: 0 .5em;
+  padding: 0 0.5em;
 }
 
-.header-right ul li .blue-button{
+.header-right ul li .blue-button {
   color: white;
 }
 
@@ -144,18 +141,18 @@ header {
   width: 35%;
 }
 
-.banner-right{
+.banner-right {
   width: 65%;
   position: relative;
 }
 
 /* IMMAGINE BANNER OUTSIDE*/
-.banner-right img{
-  position: absolute;  
+.banner-right img {
+  position: absolute;
   top: 0;
   left: 0;
   z-index: 2;
-}  
+}
 
 /* MAIN ---------------------*/
 
@@ -166,57 +163,57 @@ header {
   padding: 2em 0 1em;
 }
 
-.sub-radio-buttons{
+.sub-radio-buttons {
   padding: 1em 0 1em;
 }
 .sub-radio-buttons label input,
 .sub-radio-buttons label span {
   vertical-align: middle;
 }
-.sub-radio-buttons label span{
+.sub-radio-buttons label span {
   padding-right: 1em;
 }
-.label-radio {  
+.label-radio {
   cursor: pointer;
 }
 
 /* subscription card */
 
-.sub-card {  
+.sub-card {
   margin-right: 2.2em;
   width: calc(100% / 3);
   border: var(--border-black);
 }
-.sub-card:nth-of-type(3){
+.sub-card:nth-of-type(3) {
   margin-right: 0px;
 }
 
-.card-label{
+.card-label {
   text-align: center;
   border-bottom: var(--border-black);
   padding: var(--padding-tb);
 }
 
-.card-main-txt{
+.card-main-txt {
   padding: 2em 1.2em;
   line-height: 1.4rem;
 }
 
 .card-main-txt > h3,
 .card-main-txt h4,
-.card-main-txt ul li{
-  padding-bottom: .5em;
+.card-main-txt ul li {
+  padding-bottom: 0.5em;
 }
 
-.sub-card  ul li{
+.sub-card ul li {
   list-style-type: none;
 }
 
-.sub-card  ul li span{
-  padding-left:.4em; 
+.sub-card ul li span {
+  padding-left: 0.4em;
 }
 
-.card-main-txt hr{
+.card-main-txt hr {
   color: black;
   margin-top: 1.5em;
   width: 4em;
@@ -224,20 +221,19 @@ header {
 
 /* card 4 */
 
-.sub-one-row div:nth-child(2){
+.sub-one-row div:nth-child(2) {
   padding: 2em;
 }
 
-.sub-button{
+.sub-button {
   position: absolute;
   top: 2em;
   right: 2em;
 }
 
-.sub-one-row .p-relative .mb-2 h4{
-  padding-top: .4rem;
+.sub-one-row .p-relative .mb-2 h4 {
+  padding-top: 0.4rem;
 }
-
 
 /* 2. Find Partner */
 
@@ -250,11 +246,11 @@ header {
   margin: 4rem 3rem;
 }
 
-.find-col h3{
+.find-col h3 {
   padding-bottom: 1em;
 }
 
-.find-card div{
+.find-card div {
   margin-top: 4em;
 }
 
@@ -266,18 +262,17 @@ header {
 
 .drop-business-card {
   margin-top: 2em;
-  width: calc(100% / 3 - 1em); 
+  width: calc(100% / 3 - 1em);
 }
 
-.drop-business-card p{
+.drop-business-card p {
   padding-top: 2em;
   padding-right: 1em;
 }
 
-
 /* 4. More Than */
 .more-than {
-  padding: 2em 0 5em; 
+  padding: 2em 0 5em;
 }
 
 /* 5. Members */
@@ -293,37 +288,36 @@ header {
   width: var(--members-card);
 }
 
-.members-square{
+.members-square {
   width: calc(var(--members-card) / 2);
   height: calc(var(--members-card) / 2);
 }
 
 /* background cross */
-.cross-left .members-square:nth-of-type(1){
+.cross-left .members-square:nth-of-type(1) {
   background-color: rgba(162, 211, 155, 1);
   outline: 10px solid rgba(209, 233, 205, 1);
   outline-offset: -10px;
 }
-.cross-left .members-square:nth-of-type(2){
+.cross-left .members-square:nth-of-type(2) {
   background-color: rgba(97, 8, 43, 1);
 }
-.cross-left .members-square:nth-of-type(3){
+.cross-left .members-square:nth-of-type(3) {
   background-color: rgba(0, 147, 206, 1);
 }
 .cross-left .members-square:nth-of-type(4),
-.cross-right .members-square:nth-of-type(1){
+.cross-right .members-square:nth-of-type(1) {
   background-color: rgba(255, 28, 28, 1);
 }
-.cross-right .members-square:nth-of-type(2){
+.cross-right .members-square:nth-of-type(2) {
   background-color: rgba(180, 208, 231, 1);
 }
-.cross-right .members-square:nth-of-type(3){
-  background-color:rgba(13, 36, 129, 1);
+.cross-right .members-square:nth-of-type(3) {
+  background-color: rgba(13, 36, 129, 1);
 }
-.cross-right .members-square:nth-of-type(4){
+.cross-right .members-square:nth-of-type(4) {
   background-color: rgba(255, 216, 48, 1);
 }
-
 
 /* 6. Trial */
 .trial-left,
@@ -331,30 +325,35 @@ header {
   padding: 6em 0;
 }
 .trial-left {
-  width: 60%; 
+  width: 60%;
 }
 .trial-right {
-  width: 40%;  
+  width: 40%;
 }
-.trial-right > a{
+.trial-right > a {
   position: absolute;
   right: 0;
 }
 
 /* 7. Faq */
-.faq {
-  /* DEBUG */
-  background-color: lightblue;
+.faq-title,
+.faq-item {
+  padding: 2em 0 2em;
+}
+.faq-item {
+  border-top: var(--border-black);
+}
+.faq-column .faq-item:nth-child(3) {
+  border-bottom: var(--border-black);
 }
 
-.faq-title,.faq-item {
-  padding: 1em 0 1em;
-  border: 1px solid black;
+.faq-arrow{
+  margin-right: 1em;
 }
-
 
 /* FOOTER ---------------*/
-.footer-card, .footer-bottom-it{
+.footer-card,
+.footer-bottom-it {
   background-color: rgba(255, 255, 255, 0.5);
 }
 
@@ -383,7 +382,3 @@ header {
 .wborder {
   border: 1px solid white;
 }
-
-
-
-
