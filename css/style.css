@@ -16,7 +16,11 @@ img {
 }
 
 :root{
+  --header-height: 80px;
   --members-card: 500px;
+  --border-black: 1px solid black;
+  --padding-tb: .5em 0 .5em;
+  --color-bg-blue: #b4d0e7;
 }
 
 /* FLEX */
@@ -44,9 +48,9 @@ img {
 /* CONTAINER */
 
 .container-header {
-  background-color: rgb(255, 255, 255);
+  background-color: white;
   width: 100%;
-  height: 80px;
+  height: var(--header-height);
   position: fixed;
   z-index: 999;
   top: 0;
@@ -65,17 +69,12 @@ img {
 
 /* BG-COLOR banner footer section*/
 
-.banner-bgcolor {
-  background-color: #b4d0e7;
+.banner-bgcolor,
+.section-trial {
+  background-color: var(--color-bg-blue);
 }
 .footer-bgcolor {
   background-color: black;
-}
-.section-trial {
-  background-color: #b4d0e7;
-}
-.section-faq {
-  background-color: white;
 }
 
 /* MARGIN */
@@ -83,7 +82,9 @@ img {
 .mt-3 {
   margin-top: 3em;
 }
-
+.mt-2{
+  margin-top: 2em;
+}
 .mb-2{
   margin-bottom: 2em;
 }
@@ -93,8 +94,8 @@ img {
 
 .header-left,
 .header-right {
-  height: 80px;
-  line-height: 80px;
+  height: var(--header-height);
+  line-height: var(--header-height);
   margin: 0 .4em;
 }
 
@@ -123,7 +124,7 @@ img {
 
 /* BANNER -----------------*/
 .banner {
-  margin-top: 80px;
+  margin-top: var(--header-height);
 }
 
 .banner-title {
@@ -151,29 +152,40 @@ img {
 
 /* MAIN ---------------------*/
 
-main {
-  margin-top: 4em;
-}
 /* 1. Subscrition */
+
 .subscrition {
   /* DEBUG */
   background-color: lightblue;
 }
 
 .subscrition-title {
-  padding: 2em 0;
+  padding: 2em 0 1em;
 }
+
+.sub-radio-buttons{
+  padding: 1em 0 1em;
+}
+
 .sub-card {
   margin: 1em 0 1em;
   width: calc(100% / 3);
-  /* DEBUG */
-  height: 600px;
 }
 
-.sub-one-row {
-  /* DEBUG */
-  height: 200px;
+.card-label{
+  text-align: center;
+  border-bottom: var(--border-black);
+  padding: var(--padding-tb);
 }
+
+.card-main-txt{
+  padding: 2em 1.2em;
+  line-height: 2rem;
+}
+.sub-card  ul li{
+  list-style-type: none;
+}
+
 
 /* 2. Find Partner */
 .find-partner {

@@ -24,6 +24,14 @@ p {
   font-size: 1rem;
 }
 
+span{
+  font-size: .9rem;
+}
+
+.mese{
+  color: grey;
+}
+
 /* FOOTER */
 .footer-card,
 .footer-bottom-it {
@@ -45,6 +53,9 @@ p {
   padding-bottom: .2em;
 }
 
+.fa-check{
+  color: blue;  
+}
 
 /* BUTTONS */
 
