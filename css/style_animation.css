@@ -2,3 +2,20 @@
 .header-right ul li:hover  {
     border-bottom: 2px solid black;   
 }
+
+
+.blue-button{
+    transition: all 1s;
+}
+
+.blue-button:hover{
+    background-color: rgb(70, 140, 253);
+}
+
+.white-button{
+    transition: all 1s;
+}
+
+.white-button:hover{
+    background-color: lightgrey;
+}

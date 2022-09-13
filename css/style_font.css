@@ -74,8 +74,11 @@ span {
 .blue-button,
 .blue-button a{
   color: white;
-  background-color: rgba(0, 97, 255, 1);
   text-decoration: none;
+}
+
+.blue-button{
+  background-color: rgba(0, 97, 255, 1);
 }
 
 .header-right ul li .blue-button,
