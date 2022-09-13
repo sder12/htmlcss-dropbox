@@ -39,6 +39,12 @@ p {
   color: blue;
 }
 
+/* ICONS */
+.fa-arrow-down{
+  font-size: 4rem;
+  padding-bottom: .2em;
+}
+
 
 /* BUTTONS */
 
@@ -46,6 +52,6 @@ p {
   color: white;
   background-color: rgba(0, 97, 255, 1);
   text-decoration: none;
-  padding: .3em 1em;  
+  padding: .5em 1em;  
 }
 

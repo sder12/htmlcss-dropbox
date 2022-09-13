@@ -84,6 +84,11 @@ img {
   margin-top: 3em;
 }
 
+.mb-2{
+  margin-bottom: 2em;
+}
+
+
 /* HEADER ----------------*/
 
 .header-left,
@@ -124,15 +129,25 @@ img {
 .banner-title {
   text-align: left;
   padding-top: 2em;
+  padding-right: 8em;
 }
 
-.banner-left,
-.banner-right {
-  width: 50%;
-  /* DEBUG */
-  background-color: rgb(113, 169, 169);
-  height: 300px;
+.banner-left {
+  width: 35%;
 }
+
+.banner-right{
+  width: 65%;
+  /* position: relative; */
+}
+
+/* IMMAGINE BANNER OUTSIDE
+.banner-right img{
+  position: absolute;  
+  z-index: 2;
+  top: 0;
+  left: 0;
+}  */
 
 /* MAIN ---------------------*/
 
