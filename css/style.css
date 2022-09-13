@@ -394,18 +394,15 @@ header {
 
 .footer-bottom {
   padding: 2em 0 4em;
-  min-height: 50px;
-  
+  min-height: 50px;  
 }
 
 .footer-bottom hr{
-  width: 10%;
-  
+  width: 10%;  
 }
 
 .footer-bottom-it{
  margin-top: 1em;
-
 }
 
 
