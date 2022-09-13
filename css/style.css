@@ -352,27 +352,38 @@ header {
 }
 
 /* FOOTER ---------------*/
-.footer-card,
-.footer-bottom-it {
-  background-color: rgba(255, 255, 255, 0.5);
-}
-
 .footer-top {
-  padding-top: 2em;
+  padding-top: 3em;
 }
 
 .footer-card {
-  width: calc(100% / 5);
-  /* DEBUG */
-  min-height: 200px;
+  width: calc(100% / 5);  
+}
+.footer-card ul li,
+.footer-card ul li h3{
+  list-style-type: none;
+  padding-bottom: .5em;
 }
 
 .footer-bottom {
   padding: 2em 0 4em;
   min-height: 50px;
-  /* DEBUG */
-  width: 100px;
+  
 }
+
+.footer-bottom hr{
+  width: 10%;
+  
+}
+
+.footer-bottom-it{
+ margin-top: 1em;
+
+}
+
+
+
+
 
 /* DEBUG */
 

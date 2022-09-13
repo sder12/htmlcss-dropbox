@@ -33,10 +33,22 @@ span {
 }
 
 /* FOOTER */
-.footer-card,
-.footer-bottom-it {
+.footer-card a,
+.footer-card h3{
   color: white;
 }
+
+.footer-bottom-it,
+.footer-bottom-it a,
+.footer-bottom hr{
+  color: grey;
+}
+
+.footer-bottom-it a,
+.footer-card a{
+  text-decoration: none;
+}
+
 
 /* ANCOR TAG */
 .ahref-white a {
