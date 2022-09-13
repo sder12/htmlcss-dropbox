@@ -44,6 +44,10 @@ img {
   display: flex;
   justify-content: flex-end;
 }
+/* POSITION */
+.p-relative{
+  position: relative;
+}
 
 /* CONTAINER */
 .container-main {
@@ -76,6 +80,7 @@ img {
 .mb-2{
   margin-bottom: 2em;
 }
+
 
 
 /* HEADER ----------------*/
@@ -152,15 +157,6 @@ header {
 
 /* 1. Subscrition */
 
-.subscrition {
-  /* DEBUG */
-  background-color: lightblue;
-}
-
-
-
-
-
 /* subscription Title */
 .subscrition-title {
   padding: 2em 0 1em;
@@ -169,7 +165,6 @@ header {
 .sub-radio-buttons{
   padding: 1em 0 1em;
 }
-
 .sub-radio-buttons label input,
 .sub-radio-buttons label span {
   vertical-align: middle;
@@ -177,10 +172,10 @@ header {
 .sub-radio-buttons label span{
   padding-right: 1em;
 }
-
 .label-radio {  
   cursor: pointer;
 }
+
 /* subscription card */
 
 .sub-card {  
@@ -221,6 +216,22 @@ header {
   color: black;
   margin-top: 1.5em;
   width: 4em;
+}
+
+/* card 4 */
+
+.sub-one-row div:nth-child(2){
+  padding: 2em;
+}
+
+.sub-button{
+  position: absolute;
+  top: 2em;
+  right: 2em;
+}
+
+.sub-one-row .p-relative .mb-2 h4{
+  padding-top: .4rem;
 }
 
 
