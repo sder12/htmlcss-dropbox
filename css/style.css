@@ -23,6 +23,7 @@ img {
   --color-bg-blue: #b4d0e7;
 }
 
+
 /* FLEX */
 .flex {
   display: flex;
@@ -325,18 +326,19 @@ header {
 
 
 /* 6. Trial */
-
 .trial-left,
 .trial-right {
   padding: 6em 0;
-  /* DEBUG */
-  border: 1px solid black;
 }
 .trial-left {
-  width: 60%;
+  width: 60%; 
 }
 .trial-right {
-  width: 40%;
+  width: 40%;  
+}
+.trial-right > a{
+  position: absolute;
+  right: 0;
 }
 
 /* 7. Faq */

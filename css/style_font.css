@@ -24,11 +24,11 @@ p {
   font-size: 1rem;
 }
 
-span{
-  font-size: .9rem;
+span {
+  font-size: 0.9rem;
 }
 
-.mese{
+.mese {
   color: grey;
 }
 
@@ -48,28 +48,33 @@ span{
 }
 
 /* ICONS */
-.fa-arrow-down{
+.fa-arrow-down {
   font-size: 4rem;
-  padding-bottom: .2em;
+  padding-bottom: 0.2em;
 }
 
-.fa-check{
-  color: blue;  
+.fa-check {
+  color: blue;
 }
 
 /* BUTTONS */
 
-.blue-button{ 
+.blue-button {
   color: white;
   background-color: rgba(0, 97, 255, 1);
   text-decoration: none;
-  padding: .5em 1em;  
+  padding: 0.5em 1em;
 }
 
-
-.white-button{ 
+.white-button {
   color: black;
+  background-color: white;
   border: var(--border-black);
   text-decoration: none;
-  padding: .6em 1em;  
+  padding: 0.6em 1em;
 }
+
+.w-border {
+  border: 1px solid white;
+}
+
