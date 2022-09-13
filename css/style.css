@@ -292,6 +292,10 @@ header {
   padding: 2em 0;
 }
 
+#wdesign{
+  filter: invert(100%);
+}
+
 .members-card-cross {
   height: var(--members-card);
   width: var(--members-card);
