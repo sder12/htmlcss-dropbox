@@ -51,17 +51,17 @@ span {
 
 
 /* ANCOR TAG */
-.ahref-white a {
-  text-decoration: none;
+.ahref-white{
   color: black;
+  text-decoration: none;
+  display: block;
 }
-.ahref-blue a {
+.ahref-blue{
   color: blue;
 }
 
 /* ICONS */
 .fa-arrow-down {
-  font-size: 4rem;
   padding-bottom: 0.2em;
 }
 
@@ -83,7 +83,7 @@ span {
 
 .header-right ul li .blue-button,
 .sub-button .blue-button,
-.banner-left div .blue-button{
+.banner-left .blue-button{
   padding: .5em 1em;
 }
 
