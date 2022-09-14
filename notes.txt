@@ -1,0 +1,86 @@
+NB
+.btn .blue-btn      - tutti i figli
+.btn.blue-btn       - tutti i div che hanno entrambi
+---------------------------
+- Fontawsome: 
+modifico grandezza aggiungendo alla classe "fa-3x"
+
+- Btn:
+per fare in modo che non si spezzino quando > testo imposto
+display: inline-block
+
+- Img Banner
+spostare img posso dare position:relative + bottom negativo
+
+- posso dare classe direttamente ad <a> senza metterlo sempre dentro al <div>
+
+- Header
+li --> posso dare color: inherit /or/ black
+color btn header --> per dare color white o aumento specificità o aggiungo !important 
+bg btn --> line-height:none; per far in modo che non strecia
+logo---> invece che vertical-align:middle ho altre alternatives es: vertical-align: text-bottom;
+
+
+-per dare spaziatura a h1 h2 h3 
+dò margin in EM! not rem! 
+es. h1, h2, h3 {
+    margin-bottom: 1em;
+}
+
+-Radio Buttons
+label = è il testo 
+input = è il bottone
+li collego tra loro con id in input + for in label
+
+
+-posso usare il tag header anche all'interno di altri div,
+per questo motivo non è consigliabile dare direttamente all'header lo style
+es. card-label poteva essere un <header>
+
+-LA CARD poteva essere composta da
+header
+article 
+--dividere il div della card con altri selettori!
+
+-LSIT con ICON 
+usare <i> <span> e poi dare ad li display flex
+ul.check-list li{
+    dispaly: flex
+    align-items: flex-start 
+}
+ul.check-list li i{
+    margin-right .5 em
+}
+
+/or/
+
+SEARCH Fontawsome in pseudo-element by using Unicode
+li:before{
+    content: ""\f099""; ---> UNICODE
+    font-family: "Font Awesome 5 Brands"
+    font-weight: 900;
+    color: blue;
+    -------
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+li{
+    position: relative;
+    padding-left: 2em;
+}
+
+/or/
+ICON IN A LIST
+https://fontawesome.com/docs/web/style/lists
+
+
+-settare <hr> generico
+width in %
+posso dare classe ad hr!
+
+- classe my-2 per dare margini sia top che bottom 
+
+
+-struttura semplice non serve mettere card es. dropobox-business
