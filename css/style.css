@@ -24,6 +24,7 @@ img {
 }
 
 /* FLEX */
+
 .flex {
   display: flex;
   justify-content: space-between;
@@ -43,6 +44,10 @@ img {
 .flex-right {
   display: flex;
   justify-content: flex-end;
+}
+
+.flex-left{
+  display: flex;
 }
 /* POSITION */
 .p-relative {
@@ -369,13 +374,6 @@ ul.check-list li{
 .faq-title,
 .faq-item {
   padding: 2em 0 2em;
-}
-
-.faq-item {
-  border-top: var(--border-black);
-}
-.b-bottom{
-  border-bottom: var(--border-black);
 }
 
 .faq-item a{
