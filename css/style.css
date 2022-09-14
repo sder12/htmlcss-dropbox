@@ -348,9 +348,6 @@ ul.check-list li{
   transform: translate(-50%, -50%);
 }
 
-#fill{
-  fill: white;
-}
 
 /* 6. Trial */
 .trial-left,
@@ -373,15 +370,17 @@ ul.check-list li{
 .faq-item {
   padding: 2em 0 2em;
 }
+
 .faq-item {
   border-top: var(--border-black);
 }
-.faq-column .faq-item:nth-child(3) {
+.b-bottom{
   border-bottom: var(--border-black);
 }
 
-.faq-arrow{
+.faq-item a{
   margin-right: 1em;
+  color: black;
 }
 
 /* FOOTER ---------------*/
