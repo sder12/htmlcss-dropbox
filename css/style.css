@@ -112,7 +112,9 @@ header {
 .header-right ul li a {
   color: black;
   text-decoration: none;
-  vertical-align: middle;
+  /* vertical-align: middle; 
+  NB con vertical-align il border-bottom creava bordino
+   */
 }
 
 .header-left ul li,

@@ -19,3 +19,21 @@
 .white-button:hover{
     background-color: lightgrey;
 }
+
+
+.hidden{
+    padding-bottom: 3em;
+    display: none;
+    transition: all 1s;
+    /* display: unset; */
+   
+
+    /* visibility: hidden;
+    max-height: 0; */
+
+    /* opacity: 0; */
+}
+
+.faq-arrow:active .hidden{
+    display: block;    
+}
